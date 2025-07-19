@@ -1,11 +1,11 @@
 package helloname;
 
-class Student{
+class Student {
 	String name;
 	int rollnumber;
 	char grade;
 	
-	public void dispayDetails() {
+	public void displayDetails() {
 		System.out.println("Name:"+name);
 		System.out.println("Roll Number:"+rollnumber);
 		System.out.println("Grade:"+grade);
@@ -20,7 +20,7 @@ public class Main {
 		student1.name="Abhirami";
 		student1.rollnumber=4;
 		student1.grade='A';
-		student1.dispayDetails();
+		student1.displayDetails();
 	}
 
 }
